@@ -1007,6 +1007,16 @@ augroup SolarizedHiTrail
     endif
 augroup END
 " }}}
+
+" MinibufExplorer styles {{{
+hi MBEVisibleActive guifg=#dc322f guibg=fg
+hi MBEVisibleChangedActive guifg=#dc322f guibg=fg
+hi MBEVisibleChanged guifg=#b58900 guibg=fg
+hi MBEVisibleNormal guifg=#b58900 guibg=fg
+hi MBEChanged guifg=#dc322f guibg=fg
+hi MBENormal guifg=#808080 guibg=fg
+" }}}
+
 " Menus "{{{
 " ---------------------------------------------------------------------
 " Turn off Solarized menu by including the following assignment in your .vimrc:
